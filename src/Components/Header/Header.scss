@@ -1,0 +1,9 @@
+
+.navbar-brand{
+    padding: 0px 0px 0px 4px;
+    padding: calculate-rem(0)rem calculate-rem(0)rem calculate-rem(0)rem calculate-rem(4)rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
