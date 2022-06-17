@@ -7,7 +7,7 @@ import './Header.scss'
 
 import { useState } from "react"; // import state
 
-function Header() {
+export default function Header() {
 
     const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
     return (
@@ -88,5 +88,3 @@ function Header() {
         </header>
     );
 }
-
-export default Header;
